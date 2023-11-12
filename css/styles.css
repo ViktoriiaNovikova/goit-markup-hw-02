@@ -14,8 +14,9 @@ button {
 /* Body */
 
 body {
-font-family: Roboto, Raleway, sans-serif;
-color: #2E2F42;
+font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 /* Navigation*/
@@ -26,7 +27,7 @@ color: #2E2F42;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -36,7 +37,7 @@ color: #2E2F42;
     font-family: Raleway,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -68,7 +69,16 @@ color: #434455;
 color: #404BBF
 }
 
+.text-normal {
+    font-style: normal;
+}
+
 /* Section 1 */
+
+.first {
+background-color: #2e2f42;
+}
+
 
 .top-main {
 background-color: #2E2F42;
@@ -90,6 +100,11 @@ color: #FFFFFF;
 .top-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
 }
 
 
@@ -111,6 +126,7 @@ color: #434455;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: left;
 }
 
 /* Section 3 */
@@ -123,6 +139,12 @@ color: #434455;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.back-team {
+    background-color: #FFFFFF;
 }
 
 .top-text {
@@ -141,6 +163,8 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .section-team {
@@ -169,10 +193,10 @@ color: #F4F4FD;
 .logo-web-back {
 color: #4D5AE5;
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -180,10 +204,10 @@ color: #4D5AE5;
 .logo-studio-back {
 color: #F4F4FD;
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
